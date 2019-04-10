@@ -1,0 +1,30 @@
+.fa-header {
+    background: #35628C;
+    height: 100px;   
+}
+.fa-header:before {
+    content: none !important;
+}
+.fa-secondnav-list {
+    padding: 11px 0;
+}
+
+.fa-secondnav-list a{
+    color: #fff;
+    margin-left: 25px;
+    font-size: 80%;
+}
+
+button {
+    background: #FCCE45;
+    color: #494643;
+    padding: 2px 14px;
+    height: 38px;
+    margin-right:10px;   
+}
+
+@media (max-width: 800px)  {
+    .fa-secondnav {
+        display: none;
+    }
+}
