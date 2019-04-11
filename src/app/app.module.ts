@@ -15,6 +15,10 @@ import { HomeComponent } from './home/home.component';
 import { FormsComponent } from './forms/forms.component';
 import { LogoComponent } from './header/logo/logo.component';
 import { GridComponent } from './grid/grid.component';
+import { ElementsComponent } from './elements/elements.component';
+import { PersonalizationComponent } from './personalization/personalization.component';
+import { SystemNav1Component } from './systemnav1/systemnav1.component';
+import { SystemNav2Component } from './systemnav2/systemnav2.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +27,11 @@ import { GridComponent } from './grid/grid.component';
     HomeComponent,
     FormsComponent,
     LogoComponent,
-    GridComponent
+    GridComponent,
+    ElementsComponent,
+    PersonalizationComponent,
+    SystemNav1Component,
+    SystemNav2Component
   ],
   imports: [
     BrowserModule,
