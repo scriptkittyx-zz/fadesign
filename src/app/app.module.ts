@@ -19,6 +19,7 @@ import { ElementsComponent } from './elements/elements.component';
 import { PersonalizationComponent } from './personalization/personalization.component';
 import { SystemNav1Component } from './systemnav1/systemnav1.component';
 import { SystemNav2Component } from './systemnav2/systemnav2.component';
+import { TableComponent } from './grid/table/table.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { SystemNav2Component } from './systemnav2/systemnav2.component';
     ElementsComponent,
     PersonalizationComponent,
     SystemNav1Component,
-    SystemNav2Component
+    SystemNav2Component,
+    TableComponent
   ],
   imports: [
     BrowserModule,
