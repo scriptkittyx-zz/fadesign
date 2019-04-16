@@ -1,6 +1,8 @@
 {
   "name": "faangularstart",
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "A First American brand/design system complaint template created to quickstar development",
+  "author": "Nicole Dormido <ndormido@firstam.com> (https:/www.colorincode.com)",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
